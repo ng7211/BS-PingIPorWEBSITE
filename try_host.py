@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
+#Demy Abdulsalami, Ilja Winkler
+#30.10.2025
 import argparse
 import os
 import time
 
 #Parseer-Objekt mit Deskription erstellen.
-parser = argparse.ArgumentParser(description="This script pings websites or IP adresses in intervalls and shows status OK/FAILED")
+parser = argparse.ArgumentParser(description="This script pings websites or IP adresses in intervalls and shows status OK/FAILED.")
 #Optionales Argument 
 parser.add_argument('-s', '--seconds', type=float, default=3.0, help='This options sets the time in seconds between Pings.')
 #Positinales Argument
